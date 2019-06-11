@@ -63,7 +63,7 @@ PATH=
 		# Update ip.log.
 		printf "%s: Updating ip log." "$(date)" >> "${plpn}"
 		printf "%s@%s\n" "${cip}" "$(date)" >> ./ip.log
-		printf "%s: End of program execution." "$(date)" >> "${plpn}"
+		printf "%s: End of program execution.\n" "$(date)" >> "${plpn}"
 
 	else
 		# Note double \n as this finishes this
