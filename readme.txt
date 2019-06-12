@@ -39,11 +39,8 @@ setup, as they are generated programmatically.
 
 Setup:
 
-This is a bash program AND requires curl installed
-on your system.
-
-For Raspbian users: ensure you have
-dnsutils installed.
+This is a bash program AND requires curl and
+dnsutils installed on your system.
 
 You will need a gmail app password.
 
