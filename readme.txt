@@ -40,9 +40,12 @@ setup, as they are generated programmatically.
 Setup:
 
 This is a bash program AND requires curl installed
-on your system. For Raspbian users, ensure you have
-dnsutils installed as well as it doesn't come installed
-by default.
+on your system.
+
+For Raspbian users: ensure you have
+dnsutils installed. Also ensure that the version of the date
+GNU coreutil you have installed has the "--rfc-email"
+option.
 
 You will need a gmail app password.
 
