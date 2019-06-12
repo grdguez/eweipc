@@ -40,7 +40,9 @@ setup, as they are generated programmatically.
 Setup:
 
 This is a bash program AND requires curl installed
-on your system.
+on your system. For Raspbian users, ensure you have
+dnsutils installed as well as it doesn't come installed
+by default.
 
 You will need a gmail app password.
 
