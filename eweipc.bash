@@ -5,7 +5,7 @@ PATH=
 
 # Variables
 	
-	# Note >> as we will want keep previous log
+	# Note >> as we want ti keep previous log
 	# info of this program, if any exists.
 	# This is also the first time writing to
 	# ./program.log so it's created by this command.
