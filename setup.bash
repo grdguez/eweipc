@@ -53,4 +53,4 @@
 	pv="$(sed -n -E 's:^PATH=(.*):\1:p' < "${cef}")"
 	# Set PATH variable in ./eweipc.bash.
 	sed -E -i "s,^(PATH=).*,\1"${pv}"," "${mspn}"
-	echo "PATH variable written to "${mspn}."" >&2
+	echo "PATH variable written to "${mspn}"." >&2
