@@ -27,7 +27,7 @@ PATH=
 	# th: To header.
 	th="To: <"$(sed -n -E 's:^SendTo=(.*):\1:Ip' < ${mcpn})">"
 	# dh: Date header.
-	dh="Date: "$(date --rfc-email)""
+	dh="Date: "$(date -R)""
 	# ccpn: curl config path name.
 	ccpn="./curl.config"
 
