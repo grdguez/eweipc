@@ -34,12 +34,12 @@
 
 # Generate ip.log
 	echo "Generating ip.log file." >&2
-	# Note only one >>. This is because we
+	# Note >>. This is because we
    	# want to append if a log already exists.
 	# Allows us to run setup multiple times
 	# without losing the old log.	
-	printf "%s@%s\n" "$(./getip.bash)" "$(date)" > ip.log	
-	echo "Generation of ip.log complete".
+	printf "%s@%s\n" "$(./getip.bash)" "$(date)" >> ip.log	
+	echo "Generation of ip.log complete." >&2
 
 # Generate current environment file.
 	echo "Creating file with current environment." >&2
